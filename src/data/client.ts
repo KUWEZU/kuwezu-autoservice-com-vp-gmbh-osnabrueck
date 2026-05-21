@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-05-21T12:45:01.650Z
+ * Erstellt: 2026-05-21T12:52:58.840Z
  * Kundennummer: 73
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -31,7 +31,7 @@ export const client = {
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Ihre Autowerkstatt in Osnabrück mit Rundum-Service",
     ueberschriftHighlight: "Rundum-Service",
-    untertext: "Von Karosserie über Autoglas bis Ersatzwagen – bei uns ist Ihr Fahrzeug in besten Händen. Professionell, schnell und zuverlässig.",
+    untertext: "Professionelle Karosserie- und Autoglasreparaturen mit kostenlosem Ersatzwagen. Schnell, zuverlässig und fair.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -39,10 +39,10 @@ export const client = {
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
     bild: "https://r2.kuwezu.de/kunden/73/ueber-uns.webp",
-    ueberschrift: "autoservice.com VP GmbH – Ihr Partner in Osnabrück",
-    text1: "Als moderne Autowerkstatt in Osnabrück bieten wir Ihnen einen umfassenden Service rund um Ihr Fahrzeug. Unsere Kernkompetenzen liegen in der professionellen Karosseriereparatur, dem fachgerechten Austausch von Autoglas sowie der Bereitstellung zuverlässiger Ersatzfahrzeuge. So bleiben Sie mobil, während wir uns um Ihr Auto kümmern.",
-    text2: "Wir arbeiten mit modernster Technik, geschultem Personal und nehmen uns Zeit für eine ehrliche Beratung. Ihr Vertrauen ist uns wichtig – deshalb setzen wir auf Transparenz, faire Preise und Qualität, die hält.",
-    tags: ["Meisterbetrieb", "Ersatzwagen inklusive", "Schnelle Termine", "Faire Preise"],
+    ueberschrift: "Ihr Kfz-Meisterbetrieb im Herzen von Osnabrück",
+    text1: "Als etablierte Autowerkstatt in Osnabrück sind wir Ihr kompetenter Partner für alle Karosserie- und Autoglasarbeiten. Mit modernster Technik und langjähriger Erfahrung reparieren wir Unfallschäden, ersetzen Windschutzscheiben und kümmern uns um alle Lackierarbeiten – professionell und termingerecht.",
+    text2: "Uns ist wichtig, dass Sie mobil bleiben. Deshalb bieten wir Ihnen während der Reparatur einen kostenlosen Ersatzwagen an. Transparente Kostenvoranschläge und ehrliche Beratung sind für uns selbstverständlich.",
+    tags: ["Meisterbetrieb", "Kostenloser Ersatzwagen", "Direkte Versicherungsabrechnung", "Moderne Werkstattausstattung"],
     stats: [
       { value: "10+",    label: "Jahre Erfahrung"   },
       { value: "1.000+", label: "Zufriedene Kunden" },
@@ -57,22 +57,22 @@ export const client = {
       slug: "ersatzwagen",
       title: "Ersatzwagen",
       bild: "https://r2.kuwezu.de/bibliothek/Ersatzwagen/1777882571137-ersatzwagen_auto.webp",
-      description: "Damit Sie während der Reparatur mobil bleiben, stellen wir Ihnen unkompliziert einen Ersatzwagen zur Verfügung. Zuverlässig und zum fairen Preis.",
-      highlights: ["Flexible Mietdauer", "Gepflegte Fahrzeuge", "Schnelle Verfügbarkeit"],
+      description: "Bleiben Sie mobil während Ihr Fahrzeug bei uns in Reparatur ist. Wir stellen Ihnen kostenlos einen Ersatzwagen zur Verfügung – unkompliziert und zuverlässig.",
+      highlights: ["Kostenlose Bereitstellung", "Verschiedene Fahrzeugklassen", "Sofort verfügbar"],
     },
     {
       slug: "karosserie",
       title: "Karosserie",
       bild: "https://r2.kuwezu.de/bibliothek/Karosserie/1777878013146-leistung_karosserie.webp",
-      description: "Von Unfallschäden über Beulen bis zur Lackierung – wir reparieren Ihre Karosserie fachgerecht und bringen Ihr Auto wieder in Bestform.",
-      highlights: ["Unfallreparaturen", "Lackierarbeiten", "Delle & Kratzer beseitigen"],
+      description: "Von der Unfallreparatur bis zur professionellen Lackierung – unser Karosseriefachbetrieb bringt Ihr Fahrzeug wieder in Bestform. Präzise Arbeit mit modernster Richtbanktechnik und Originalersatzteilen.",
+      highlights: ["Unfallschadensbeseitigung", "Spot-Repair & Komplettlackierung", "Versicherungsabwicklung"],
     },
     {
       slug: "autoglas",
       title: "Autoglas",
       bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
-      description: "Steinschlag oder Riss? Wir reparieren und tauschen Autoscheiben professionell aus. Schnell, sauber und mit Originalqualität.",
-      highlights: ["Steinschlagreparatur", "Scheibenaustausch", "Versicherungsabwicklung"],
+      description: "Steinschlag oder Riss in der Scheibe? Wir reparieren und ersetzen alle Autoscheiben fachgerecht. Schnelle Terminvergabe und direkte Abrechnung mit Ihrer Versicherung möglich.",
+      highlights: ["Steinschlagreparatur", "Scheibentausch alle Marken", "Kalibrierung von Assistenzsystemen"],
     }
   ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
 
