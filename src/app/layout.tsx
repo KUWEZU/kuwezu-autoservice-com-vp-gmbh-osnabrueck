@@ -11,13 +11,20 @@ const geistSans = Geist({
 });
 
 export const metadata: Metadata = {
-  title: "KUWEZU | Professionelle Kfz-Werkstatt",
-  description: "Ihre Kfz-Werkstatt für alle Leistungen. Qualität und Transparenz.",
+  title: "Autowerkstatt Osnabrück | autoservice.com VP GmbH",
+  description: "Ihre Autowerkstatt in Osnabrück ✓ Achsvermessung ✓ Autoglas ✓ Ersatzwagen verfügbar. Jetzt Termin vereinbaren und professionellen Service erleben!",
   openGraph: {
-    title: "KUWEZU | Professionelle Kfz-Werkstatt",
-    description: "Ihre zuverlässige Kfz-Werkstatt.",
+    title: "Autowerkstatt Osnabrück | autoservice.com VP GmbH",
+    description: "Ihre Autowerkstatt in Osnabrück ✓ Achsvermessung ✓ Autoglas ✓ Ersatzwagen verfügbar. Jetzt Termin vereinbaren und professionellen Service erleben!",
     type: "website",
     locale: "de_DE",
+  },
+  icons: {
+    icon: [
+      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
+      { url: "/logo.png", type: "image/png" },
+    ],
+    apple: "/logo.png",
   },
 };
 
