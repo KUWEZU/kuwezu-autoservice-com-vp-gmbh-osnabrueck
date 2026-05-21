@@ -1,6 +1,6 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-05-21T12:27:14.870Z
+ * Erstellt: 2026-05-21T12:39:27.476Z
  * Kundennummer: 73
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
@@ -16,7 +16,7 @@ export const client = {
   telefon: "0541 668790",
   email: "",
   website: "",
-  logo: null,
+  logo: "https://r2.kuwezu.de/konzepte/autofit/logo.svg",
   standort_bild: null,
 
   // ── Branding ───────────────────────────────────────────────────────────────
@@ -31,7 +31,7 @@ export const client = {
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
     ueberschrift: "Ihre Autowerkstatt in Osnabrück mit Rundum-Service",
     ueberschriftHighlight: "Rundum-Service",
-    untertext: "Von Karosserieschäden über Autoglasreparatur bis zum Ersatzwagen – wir sind Ihr zuverlässiger Partner für alle Fahrzeugangelegenheiten.",
+    untertext: "Professionelle Karosserie- und Autoglasreparaturen mit kostenlosem Ersatzwagen. Schnell, zuverlässig und fair.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
@@ -39,10 +39,10 @@ export const client = {
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
     bild: "https://r2.kuwezu.de/kunden/73/ueber-uns.webp",
-    ueberschrift: "Ihre Autowerkstatt für Osnabrück und Umgebung",
-    text1: "Die autoservice.com VP GmbH steht für professionelle Fahrzeugpflege und Reparaturen in Osnabrück. Unser erfahrenes Team kümmert sich um Karosserie- und Autoglasarbeiten aller Art. Damit Sie mobil bleiben, stellen wir Ihnen bei größeren Reparaturen selbstverständlich einen Ersatzwagen zur Verfügung.",
-    text2: "Wir arbeiten mit moderner Technik, setzen auf Qualität und halten Sie während der gesamten Reparatur auf dem Laufenden. Ihre Zufriedenheit und schnelle Lösungen stehen bei uns an erster Stelle.",
-    tags: ["Meisterbetrieb", "Ersatzwagen inklusive", "Schnelle Termine", "Alle Fabrikate"],
+    ueberschrift: "Ihre Autowerkstatt im Herzen von Osnabrück",
+    text1: "Die autoservice.com VP GmbH ist Ihr kompetenter Partner für alle Karosserie- und Autoglasarbeiten in Osnabrück. Mit jahrelanger Erfahrung und modernster Werkstattausstattung sorgen wir dafür, dass Ihr Fahrzeug schnell wieder in einwandfreiem Zustand ist. Von der Unfallreparatur bis zum Steinschlagschaden – wir kümmern uns um alles.",
+    text2: "Damit Sie auch während der Reparatur mobil bleiben, stellen wir Ihnen selbstverständlich einen kostenlosen Ersatzwagen zur Verfügung. Transparente Kostenvoranschläge und persönliche Beratung sind für uns selbstverständlich.",
+    tags: ["Meisterbetrieb", "Versicherungsabwicklung", "Kostenloser Ersatzwagen", "Schnelle Terminvergabe"],
     stats: [
       { value: "10+",    label: "Jahre Erfahrung"   },
       { value: "1.000+", label: "Zufriedene Kunden" },
@@ -57,22 +57,22 @@ export const client = {
       slug: "ersatzwagen",
       title: "Ersatzwagen",
       bild: "https://r2.kuwezu.de/bibliothek/Ersatzwagen/1777882571137-ersatzwagen_auto.webp",
-      description: "Bleiben Sie mobil während Ihr Fahrzeug bei uns in der Werkstatt ist. Wir stellen Ihnen einen zuverlässigen Ersatzwagen zur Verfügung, damit Sie ohne Einschränkungen Ihren Alltag meistern können.",
-      highlights: ["Verschiedene Fahrzeugklassen", "Unkomplizierte Abwicklung", "Versicherungsabrechnung möglich"],
+      description: "Damit Sie während der Reparatur mobil bleiben, stellen wir Ihnen kostenlos einen Ersatzwagen zur Verfügung. Unkompliziert und direkt bei uns vor Ort.",
+      highlights: ["Kostenlose Bereitstellung", "Verschiedene Fahrzeugklassen", "Sofort verfügbar"],
     },
     {
       slug: "karosserie",
       title: "Karosserie",
       bild: "https://r2.kuwezu.de/bibliothek/Karosserie/1777878013146-leistung_karosserie.webp",
-      description: "Von kleinen Dellen bis zu kompletten Unfallschäden – unsere Karosserieexperten bringen Ihr Fahrzeug wieder in Form. Wir arbeiten mit modernen Richtbänken und Lacktechnologien für ein perfektes Ergebnis.",
-      highlights: ["Unfall-Instandsetzung", "Lackierarbeiten", "Smart Repair für kleine Schäden"],
+      description: "Von Unfallschäden über Dellen bis zu Lackarbeiten – unsere Karosserie-Experten bringen Ihr Fahrzeug wieder in Bestform. Fachgerecht und mit Originalteilen.",
+      highlights: ["Unfallreparaturen", "Lackierarbeiten", "Dellenbeseitigung"],
     },
     {
       slug: "autoglas",
       title: "Autoglas",
       bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
-      description: "Steinschlag oder größere Glasschäden? Wir reparieren oder tauschen Windschutzscheiben, Seiten- und Heckscheiben fachgerecht aus. Schnell, professionell und direkt mit Ihrer Versicherung abrechenbar.",
-      highlights: ["Steinschlagreparatur", "Scheibenwechsel alle Marken", "Kalibrierung von Assistenzsystemen"],
+      description: "Steinschlag oder Glasbruch? Wir reparieren oder tauschen Ihre Scheiben schnell und präzise. Direkte Abrechnung mit Ihrer Versicherung möglich.",
+      highlights: ["Steinschlagreparatur", "Scheibenaustausch", "Versicherungsabwicklung"],
     }
   ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
 
@@ -104,10 +104,10 @@ export const client = {
   },
 
   // ── WhatsApp ───────────────────────────────────────────────────────────────
-  whatsapp: "+4917621575303" as string,
+  whatsapp: "" as string,
 
   // ── Features ───────────────────────────────────────────────────────────────
-  newsEnabled: true as boolean,
+  newsEnabled: false as boolean,
 } as const;
 
 export type LeistungConfig = (typeof client.leistungen)[number];
