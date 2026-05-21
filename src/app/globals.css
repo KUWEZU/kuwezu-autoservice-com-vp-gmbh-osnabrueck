@@ -2,31 +2,31 @@
 
 /* ── Brand Design Tokens (Tailwind @theme) ──────────────────────────────────── */
 @theme inline {
-  --color-brand-bg:            #ffffff;
-  --color-brand-surface:       #ffffff;
-  --color-brand-surface2:      #f5f5f5;
-  --color-brand-heading:       #111111;
-  --color-brand-text:          #1a1a1a;
-  --color-brand-muted:         #555555;
-  --color-brand-border:        rgba(0,0,0,0.10);
-  --color-brand-primary:       #95c11f;
-  --color-brand-primary-hover: #83aa1b;
-  --color-brand-secondary:     #f7a600;
-  --color-brand-accent:        #636363;
+  --color-brand-bg:            #1a1a1a;
+  --color-brand-surface:       #2d2d2d;
+  --color-brand-surface2:      #222222;
+  --color-brand-heading:       #ffffff;
+  --color-brand-text:          #f0f0f0;
+  --color-brand-muted:         #a0a0a0;
+  --color-brand-border:        rgba(255,255,255,0.08);
+  --color-brand-primary:       #e30613;
+  --color-brand-primary-hover: #c80511;
+  --color-brand-secondary:     #000000;
+  --color-brand-accent:        #b1b2b3;
 
   /* Text-on-X Tokens — nur #000000 oder #FFFFFF, via getBestTextColor() berechnet */
-  --color-on-primary:     #000000;
-  --color-on-secondary:   #000000;
-  --color-on-accent:      #FFFFFF;
-  --color-on-bg:          #000000;
-  --color-on-section-alt: #000000;
-  --color-on-card:        #000000;
-  --color-on-footer:      #000000;
+  --color-on-primary:     #FFFFFF;
+  --color-on-secondary:   #FFFFFF;
+  --color-on-accent:      #000000;
+  --color-on-bg:          #FFFFFF;
+  --color-on-section-alt: #FFFFFF;
+  --color-on-card:        #FFFFFF;
+  --color-on-footer:      #FFFFFF;
 
   /* Kontrast-sichere Vordergrundfarben — Tailwind-Utilities: text-safe-primary etc. */
-  --color-safe-primary:   #111111;
-  --color-safe-secondary: #111111;
-  --color-safe-icon:      #555555;
+  --color-safe-primary:   #ffffff;
+  --color-safe-secondary: #ffffff;
+  --color-safe-icon:      #a0a0a0;
 
   --font-sans: var(--font-geist-sans);
 }
@@ -34,59 +34,59 @@
 /* ── CSS Custom Properties ───────────────────────────────────────────────────── */
 :root {
   /* Layout */
-  --color-page-bg:     #ffffff;
-  --color-section-alt: #f5f5f5;
-  --color-card-bg:     #ffffff;
-  --color-card-border: rgba(0,0,0,0.10);
+  --color-page-bg:     #1a1a1a;
+  --color-section-alt: #222222;
+  --color-card-bg:     #2d2d2d;
+  --color-card-border: rgba(255,255,255,0.08);
 
   /* Typographie */
-  --color-heading:     #111111;
-  --color-text:        #1a1a1a;
-  --color-text-muted:  #555555;
+  --color-heading:     #ffffff;
+  --color-text:        #f0f0f0;
+  --color-text-muted:  #a0a0a0;
 
   /* Markenfarben */
-  --color-primary:     #95c11f;
-  --color-secondary:   #f7a600;
-  --color-accent:      #636363;
+  --color-primary:     #e30613;
+  --color-secondary:   #000000;
+  --color-accent:      #b1b2b3;
 
   /* Text-on-X — Template-Komponenten verwenden NUR diese Variablen für Textfarben */
-  --text-on-primary:     #000000;
-  --text-on-secondary:   #000000;
-  --text-on-accent:      #FFFFFF;
-  --text-on-bg:          #000000;
-  --text-on-section-alt: #000000;
-  --text-on-card:        #000000;
-  --text-on-footer:      #000000;
+  --text-on-primary:     #FFFFFF;
+  --text-on-secondary:   #FFFFFF;
+  --text-on-accent:      #000000;
+  --text-on-bg:          #FFFFFF;
+  --text-on-section-alt: #FFFFFF;
+  --text-on-card:        #FFFFFF;
+  --text-on-footer:      #FFFFFF;
   --text-on-hero:        #ffffff; /* immer weiß — Overlay garantiert ≥7:1 */
 
   /* Hero-Overlay */
   --hero-overlay:      rgba(0,0,0,0.55);
 
   /* Kontrast-sichere Vordergrundfarben (für inline-Style-Nutzung) */
-  --safe-primary-text:   #111111;
-  --safe-secondary-text: #111111;
-  --safe-icon:           #555555;
+  --safe-primary-text:   #ffffff;
+  --safe-secondary-text: #ffffff;
+  --safe-icon:           #a0a0a0;
 
   /* Rückwärts-Kompatibilität */
-  --background:        #ffffff;
-  --foreground:        #1a1a1a;
+  --background:        #1a1a1a;
+  --foreground:        #f0f0f0;
 
   /* Navbar non-scrolled */
-  --nav-shadow:             0 1px 8px rgba(0,0,0,0.10), 0 1px 3px rgba(0,0,0,0.06);
-  --nav-hero-bg:            rgba(255,255,255,0.88);
-  --nav-hero-text:          #1a1a1a;
-  --nav-hero-text-muted:    #555555;
-  --nav-hero-hover-bg:      rgba(0,0,0,0.06);
+  --nav-shadow:             0 4px 24px rgba(0,0,0,0.5);
+  --nav-hero-bg:            rgba(0,0,0,0.50);
+  --nav-hero-text:          rgba(255,255,255,0.90);
+  --nav-hero-text-muted:    rgba(255,255,255,0.70);
+  --nav-hero-hover-bg:      rgba(255,255,255,0.10);
 
   /* Navbar scrolled + Footer — gemeinsame Oberfläche */
-  --nav-scrolled-hover-bg:    rgba(0,0,0,0.06);
-  --nav-scrolled-border:      rgba(0,0,0,0.10);
+  --nav-scrolled-hover-bg:    rgba(255,255,255,0.08);
+  --nav-scrolled-border:      rgba(255,255,255,0.08);
 
   /* Cards & Schatten */
-  --card-shadow:       0 2px 12px rgba(0,0,0,0.08);
+  --card-shadow:       none;
 
   /* Footer */
-  --color-footer-bg:   #ffffff;
+  --color-footer-bg:   #111111;
 }
 
 /* ── Basis ───────────────────────────────────────────────────────────────────── */

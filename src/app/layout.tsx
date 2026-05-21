@@ -12,20 +12,14 @@ const geistSans = Geist({
 
 export const metadata: Metadata = {
   title: "Autowerkstatt Osnabrück | autoservice.com VP GmbH",
-  description: "Ihre Autowerkstatt in Osnabrück ✓ Achsvermessung ✓ Autoglas ✓ Ersatzwagen verfügbar. Jetzt Termin vereinbaren und professionellen Service erleben!",
+  description: "Karosserie, Autoglas & Ersatzwagen in Osnabrück. Professionelle Reparaturen für alle Fahrzeuge. Jetzt Termin vereinbaren bei autoservice.com VP GmbH!",
   openGraph: {
     title: "Autowerkstatt Osnabrück | autoservice.com VP GmbH",
-    description: "Ihre Autowerkstatt in Osnabrück ✓ Achsvermessung ✓ Autoglas ✓ Ersatzwagen verfügbar. Jetzt Termin vereinbaren und professionellen Service erleben!",
+    description: "Karosserie, Autoglas & Ersatzwagen in Osnabrück. Professionelle Reparaturen für alle Fahrzeuge. Jetzt Termin vereinbaren bei autoservice.com VP GmbH!",
     type: "website",
     locale: "de_DE",
   },
-  icons: {
-    icon: [
-      { url: "/favicon.ico", sizes: "32x32", type: "image/x-icon" },
-      { url: "/logo.png", type: "image/png" },
-    ],
-    apple: "/logo.png",
-  },
+
 };
 
 export default function RootLayout({

@@ -1,7 +1,7 @@
 /**
  * client.ts — Automatisch generiert von KUWEZU
- * Erstellt: 2026-05-21T12:08:04.024Z
- * Kundennummer: 72
+ * Erstellt: 2026-05-21T12:27:14.870Z
+ * Kundennummer: 73
  *
  * Alle Texte, Bilder und Einstellungen werden hier gepflegt.
  */
@@ -11,38 +11,38 @@ export const client = {
   name: "autoservice.com VP GmbH",
   branche: "Autowerkstatt",
   ort: "Osnabrück",
-  slogan: "alle Fälle",
+  slogan: "Rundum-Service",
   adresse: "Doppheide 98, 49084 Osnabrück",
   telefon: "0541 668790",
   email: "",
   website: "",
-  logo: "https://r2.kuwezu.de/konzepte/autoteam-plus/logo.svg",
-  standort_bild: "https://r2.kuwezu.de/kunden/72/standort.webp",
+  logo: null,
+  standort_bild: null,
 
   // ── Branding ───────────────────────────────────────────────────────────────
   farben: {
-    primary: "#95c11f",
-    secondary: "#f7a600",
-    accent: "#636363",
+    primary: "#e30613",
+    secondary: "#000000",
+    accent: "#b1b2b3",
   },
   // ── Hero ───────────────────────────────────────────────────────────────────
   hero: {
-    bild: "https://r2.kuwezu.de/kunden/72/hero.webp",
+    bild: "https://r2.kuwezu.de/kunden/73/hero.webp",
     overlayOpacity: 0.55, /* fix — nie schwächer, nie überschreibbar */
-    ueberschrift: "Ihre Autowerkstatt für alle Fälle",
-    ueberschriftHighlight: "alle Fälle",
-    untertext: "Professioneller Service für Ihr Fahrzeug in Osnabrück. Von der Achsvermessung bis zum Autoglas – wir sind für Sie da.",
+    ueberschrift: "Ihre Autowerkstatt in Osnabrück mit Rundum-Service",
+    ueberschriftHighlight: "Rundum-Service",
+    untertext: "Von Karosserieschäden über Autoglasreparatur bis zum Ersatzwagen – wir sind Ihr zuverlässiger Partner für alle Fahrzeugangelegenheiten.",
     ctaPrimary: { text: "Termin vereinbaren", href: "#kontakt" },
     ctaSecondary: { text: "Leistungen ansehen", href: "#leistungen" },
   },
 
   // ── Über uns ───────────────────────────────────────────────────────────────
   ueberUns: {
-    bild: "https://r2.kuwezu.de/kunden/72/ueber-uns.webp",
-    ueberschrift: "Ihre Autowerkstatt in Osnabrück",
-    text1: "Bei autoservice.com VP GmbH dreht sich alles um Ihr Fahrzeug. Als etablierte Werkstatt in Osnabrück bieten wir Ihnen umfassenden Service rund ums Auto – von präziser Achsvermessung über professionelle Autoglasreparatur bis zum zuverlässigen Ersatzwagen. Unser erfahrenes Team sorgt dafür, dass Sie schnell und sicher wieder mobil sind.",
-    text2: "Wir legen Wert auf ehrliche Beratung, faire Preise und Termintreue. Ihr Auto ist bei uns in guten Händen – das versprechen wir Ihnen. Überzeugen Sie sich selbst von unserem Service.",
-    tags: ["Meisterbetrieb", "Ersatzwagen inklusive", "Schnelle Terminvergabe", "Faire Preise"],
+    bild: "https://r2.kuwezu.de/kunden/73/ueber-uns.webp",
+    ueberschrift: "Ihre Autowerkstatt für Osnabrück und Umgebung",
+    text1: "Die autoservice.com VP GmbH steht für professionelle Fahrzeugpflege und Reparaturen in Osnabrück. Unser erfahrenes Team kümmert sich um Karosserie- und Autoglasarbeiten aller Art. Damit Sie mobil bleiben, stellen wir Ihnen bei größeren Reparaturen selbstverständlich einen Ersatzwagen zur Verfügung.",
+    text2: "Wir arbeiten mit moderner Technik, setzen auf Qualität und halten Sie während der gesamten Reparatur auf dem Laufenden. Ihre Zufriedenheit und schnelle Lösungen stehen bei uns an erster Stelle.",
+    tags: ["Meisterbetrieb", "Ersatzwagen inklusive", "Schnelle Termine", "Alle Fabrikate"],
     stats: [
       { value: "10+",    label: "Jahre Erfahrung"   },
       { value: "1.000+", label: "Zufriedene Kunden" },
@@ -57,22 +57,22 @@ export const client = {
       slug: "ersatzwagen",
       title: "Ersatzwagen",
       bild: "https://r2.kuwezu.de/bibliothek/Ersatzwagen/1777882571137-ersatzwagen_auto.webp",
-      description: "Bleiben Sie mobil, auch während Ihr Fahrzeug bei uns in der Werkstatt ist. Wir stellen Ihnen unkompliziert einen zuverlässigen Ersatzwagen zur Verfügung.",
-      highlights: ["Sofort verfügbar", "Faire Konditionen", "Unkomplizierte Abwicklung"],
+      description: "Bleiben Sie mobil während Ihr Fahrzeug bei uns in der Werkstatt ist. Wir stellen Ihnen einen zuverlässigen Ersatzwagen zur Verfügung, damit Sie ohne Einschränkungen Ihren Alltag meistern können.",
+      highlights: ["Verschiedene Fahrzeugklassen", "Unkomplizierte Abwicklung", "Versicherungsabrechnung möglich"],
     },
     {
-      slug: "achsvermessung",
-      title: "Achsvermessung",
-      bild: "https://r2.kuwezu.de/bibliothek/Achsvermessung/1777878369186-leistung_achsvermessung.webp",
-      description: "Präzise Achsvermessung für optimales Fahrverhalten und gleichmäßigen Reifenverschleiß. Mit modernster Technik bringen wir Ihr Fahrzeug wieder in die perfekte Spur.",
-      highlights: ["Modernste Messtechnik", "Schnelle Durchführung", "Erhöht die Fahrsicherheit"],
+      slug: "karosserie",
+      title: "Karosserie",
+      bild: "https://r2.kuwezu.de/bibliothek/Karosserie/1777878013146-leistung_karosserie.webp",
+      description: "Von kleinen Dellen bis zu kompletten Unfallschäden – unsere Karosserieexperten bringen Ihr Fahrzeug wieder in Form. Wir arbeiten mit modernen Richtbänken und Lacktechnologien für ein perfektes Ergebnis.",
+      highlights: ["Unfall-Instandsetzung", "Lackierarbeiten", "Smart Repair für kleine Schäden"],
     },
     {
       slug: "autoglas",
       title: "Autoglas",
       bild: "https://r2.kuwezu.de/bibliothek/Autoglas/1777829664081-autoglas_reparatur.webp",
-      description: "Steinschlag oder Riss in der Scheibe? Wir reparieren oder tauschen Autoglas fachgerecht aus – schnell und sauber. Direktabrechnung mit Ihrer Versicherung möglich.",
-      highlights: ["Steinschlagreparatur", "Scheibentausch", "Versicherungsabwicklung"],
+      description: "Steinschlag oder größere Glasschäden? Wir reparieren oder tauschen Windschutzscheiben, Seiten- und Heckscheiben fachgerecht aus. Schnell, professionell und direkt mit Ihrer Versicherung abrechenbar.",
+      highlights: ["Steinschlagreparatur", "Scheibenwechsel alle Marken", "Kalibrierung von Assistenzsystemen"],
     }
   ] as { slug: string; title: string; bild: string; description: string; highlights: string[] }[],
 
@@ -99,7 +99,7 @@ export const client = {
 
   // ── Social Media ───────────────────────────────────────────────────────────
   social: {
-    facebook:  null as string | null,
+    facebook:  "https://facebook.de/autoservice" as string | null,
     instagram: null as string | null,
   },
 
