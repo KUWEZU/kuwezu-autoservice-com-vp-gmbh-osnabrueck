@@ -8,7 +8,7 @@
   --color-brand-heading:       #ffffff;
   --color-brand-text:          #f0f0f0;
   --color-brand-muted:         #a0a0a0;
-  --color-brand-border:        rgba(255,255,255,0.08);
+  --color-brand-border:        rgba(255,255,255,0.14);
   --color-brand-primary:       #e30613;
   --color-brand-primary-hover: #c80511;
   --color-brand-secondary:     #000000;
@@ -24,9 +24,13 @@
   --color-on-footer:      #FFFFFF;
 
   /* Kontrast-sichere Vordergrundfarben — Tailwind-Utilities: text-safe-primary etc. */
-  --color-safe-primary:   #ffffff;
-  --color-safe-secondary: #ffffff;
-  --color-safe-icon:      #a0a0a0;
+  --color-safe-primary:   #ea444e;
+  --color-safe-secondary: #8c8c8c;
+  --color-safe-icon:      #ee6a71;
+
+  /* Icon-Container-Oberflächen — bg-icon-surface / border-icon-ring */
+  --color-icon-surface:   rgba(255,255,255,0.07);
+  --color-icon-ring:      rgba(255,255,255,0.14);
 
   --font-sans: var(--font-geist-sans);
 }
@@ -37,7 +41,7 @@
   --color-page-bg:     #1a1a1a;
   --color-section-alt: #222222;
   --color-card-bg:     #2d2d2d;
-  --color-card-border: rgba(255,255,255,0.08);
+  --color-card-border: rgba(255,255,255,0.14);
 
   /* Typographie */
   --color-heading:     #ffffff;
@@ -63,9 +67,13 @@
   --hero-overlay:      rgba(0,0,0,0.55);
 
   /* Kontrast-sichere Vordergrundfarben (für inline-Style-Nutzung) */
-  --safe-primary-text:   #ffffff;
-  --safe-secondary-text: #ffffff;
-  --safe-icon:           #a0a0a0;
+  --safe-primary-text:   #ea444e;
+  --safe-secondary-text: #8c8c8c;
+  --safe-icon:           #ee6a71;
+
+  /* Icon-Container-Oberflächen (für inline-Style-Nutzung) */
+  --icon-surface: rgba(255,255,255,0.07);
+  --icon-ring:    rgba(255,255,255,0.14);
 
   /* Rückwärts-Kompatibilität */
   --background:        #1a1a1a;
@@ -104,7 +112,7 @@ html, body {
 
 /* ── Fokus-Ring (WCAG 2.4.7) ────────────────────────────────────────────────── */
 :focus-visible {
-  outline: 3px solid var(--color-primary);
+  outline: 3px solid var(--safe-primary-text);
   outline-offset: 3px;
   border-radius: 4px;
 }
