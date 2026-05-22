@@ -1,39 +1,8 @@
 {
-  "averageRating": 4.3,
-  "totalCount": 11,
+  "averageRating": null,
+  "totalCount": 0,
   "source": "Google",
-  "fetchedAt": "2026-05-21T12:25:10.319Z",
-  "reviews": [
-    {
-      "author": "Travel_with_me 2022",
-      "rating": 5,
-      "text": "Vielen Dank für den tollen und netten Kontakt. Wir als Kunde wurden optimal beraten und sind sehr zufrieden mit der gelieferten Leistung unserer Website.",
-      "date": "vor einem Jahr"
-    },
-    {
-      "author": "KFZ Hageböke",
-      "rating": 1,
-      "text": "Leider nicht zu empfehlen leider müssen wir nach nun 2 Jahren tatsächlich vor Gericht.\n\nErst Durfte ich für meine Webside 5000€ Netto in Vorkasse zahlen , diese wurde dann ca. 5 Monate Später erst Fertig als Zugesagt ( Mangelhaft Fertig ).\n\n1,5 Jahre fehlte meine Haupttätigkeit auf dieser Webside , selbst jetzt nach fast 2 Jahren ist diese noch Mangelhaft und Funktioniert nicht Vollständig.\n\nFür das Online Marketing habe ich in 2 Jahren knapp nochmals 5000€ Netto bezahlt auch hier wurden 50% der Posts aus der Falschen Branche getätigt und 48 Vertraglich zugesicherte Individual Posts wurden nie veröffentlicht, somit Mehr als Mangelhaft.\n\nAutoservice.com nimmt sich hier auch nichts an , selbst das Kündigen hat 2 Wochen gedauert und das besonders Traurige und Respektlose war dann der Gestrige Anruf ,, Man möchte sich ja Gütlich trennen und bietet mir an die gebühren im letzten Monat von Brutto 236€ nicht abzubuchen ,,,\n\nFazit innerhalb 2 Jahre 10 000€ Netto für nur Mangelhafte Leistungen bezahlt , Null Einsicht nun reicht die uns vertretende Kanzlei Klage ein was Autoservice.com aber auch scheinbar vollkommen egal ist.\nAus meiner Sicht da ich mit dem Mutterkonzern seit über 13 Jahren Arbeite einfach nur Traurig.",
-      "date": "vor einem Jahr"
-    },
-    {
-      "author": "Ümit Topgül",
-      "rating": 5,
-      "text": "Top Werkstatt sehr freundlich und haben Ahnung was sie da machen. Empfehle weiter, kein Abzocker werkstatt.",
-      "date": "vor einem Jahr"
-    },
-    {
-      "author": "Lars Schelmse",
-      "rating": 5,
-      "text": "Bisher war alles top.",
-      "date": "vor einem Jahr"
-    },
-    {
-      "author": "Jovica Stojceski",
-      "rating": 5,
-      "text": "Ein breites Angebot an Dienstleistungen und Onlinediensten! TOP!",
-      "date": "vor einem Jahr"
-    }
-  ],
-  "_debug": "gmb-import"
+  "fetchedAt": "2026-05-22T11:47:40.386Z",
+  "reviews": [],
+  "_debug": "Keine Bewertungsdaten gefunden. Maps-HTML-Anfang: "
 }
